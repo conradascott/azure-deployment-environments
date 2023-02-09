@@ -1,4 +1,4 @@
-name: Azure-App-Service
+name: azure-app-service
     version: 1.0.0
     summary: Azure App Service
     description: Deploys an App Service to Azure
