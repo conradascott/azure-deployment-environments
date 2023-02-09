@@ -3,4 +3,4 @@ name: AppService
     summary: Azure App Service
     description: Deploys an App Service to Azure
     runner: ARM
-    templatePath: services.json
+    templatePath: arm-template.json
