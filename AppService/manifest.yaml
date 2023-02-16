@@ -3,4 +3,4 @@ version: 1.0.0
 summary: Azure App Service
 description: Deploys an App Service to Azure
 runner: ARM
-templatePath: deploy.json
+templatePath: azuredeploy.json
