@@ -1,20 +1,6 @@
-name: AppService
+name: FunctionApp
 version: 1.0.0
-summary: Azure App Service
-description: Deploys an App Service to Azure
+summary: Azure Function App Environment
+description: Deploys an Azure Function App, Storage Account, and Application Insights
 runner: ARM
 templatePath: azuredeploy.json
-parameters:
-- id: "webAppName"
-  name: "webAppName"
-  description: "Web App Name"
-  default: "myWebApp"
-  type: "string"
-  required: true
-- id: "location"
-  name: "location"
-  description: "Location to deploy the environment resources"
-  default: "[resourceGroup().location]"
-  type: "string"
-  required: false
-runner: arm
