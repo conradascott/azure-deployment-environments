@@ -8,7 +8,7 @@ parameters:
 - id: "webAppName"
   name: "webAppName"
   description: "Web App Name"
-  default: ""
+  default: "myWebApp"
   type: "string"
   required: true
 - id: "location"
@@ -17,28 +17,4 @@ parameters:
   default: "[resourceGroup().location]"
   type: "string"
   required: false
-- id: "sku"
-  name: "sku"
-  description: "sku"
-  default: "F1"
-  type: "string"
-  required: false
-- id: "language"
-  name: "language"
-  description: "language"
-  default: ".net"
-  type: "string"
-  required: false
-- id: "helloWorld"
-  name: "helloWorld"
-  description: "helloWorld"
-  default: true
-  type: "bool"
-  required: false
-- id: "repoUrl"
-  name: "repoUrl"
-  description: "repoUrl"
-  default: ""
-  type: "string"
-  required: false  
 runner: arm
