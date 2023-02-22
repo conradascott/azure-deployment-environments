@@ -33,7 +33,7 @@ parameters:
   name: "helloWorld"
   description: "helloWorld"
   default: true
-  type: "string"
+  type: "bool"
   required: false
 - id: "repoUrl"
   name: "repoUrl"
